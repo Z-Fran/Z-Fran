@@ -16,11 +16,6 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
 
-  lines:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    steps:
       - uses: lowlighter/metrics@latest
         with:
           filename: metrics.plugin.lines.history.svg
