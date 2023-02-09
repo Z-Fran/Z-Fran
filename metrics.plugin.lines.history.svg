@@ -25,7 +25,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M8 5.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM4 8a4 4 0 118 0 4 4 0 01-8 0z"/>
                             </svg>
-                            <span class="diff-handle">Z-Fran/DEAP-EEG-Emotion-Analyse-and-Classify</span>
+                            <span class="diff-handle">Z-Fran/Greedy-Snake-Game</span>
                         </div>
                     </section>
                     <section>
@@ -44,7 +44,7 @@
                             <div class="diff-box added"></div>
                             <div class="diff-box added"></div>
                             <div class="diff-box deleted"></div>
-                            <div class="diff-stats"><span class="added"> +2.40k</span> <span class="deleted">     -6</span></div>
+                            <div class="diff-stats"><span class="added"> +6.67k</span> <span class="deleted">     -2</span></div>
                             <span> </span>
                         </div>
                     </section>
@@ -61,19 +61,19 @@
                         </g>
                         <g transform="translate(39,0)" fill="none" font-size="10" font-family="sans-serif" text-anchor="end">
                             <path class="domain" stroke="currentColor" d="M-6,5.5H0.5V276.5H-6"/>
-                            <g class="tick" opacity="1" transform="translate(0,29.08436043980369)">
+                            <g class="tick" opacity="1" transform="translate(0,29.13876736764309)">
                                 <line stroke="currentColor" x2="-6"/>
                                 <text fill="currentColor" x="-9" dy="0.32em">8.0M</text>
                             </g>
-                            <g class="tick" opacity="1" transform="translate(0,57.06327032985277)">
+                            <g class="tick" opacity="1" transform="translate(0,57.10407552573233)">
                                 <line stroke="currentColor" x2="-6"/>
                                 <text fill="currentColor" x="-9" dy="0.32em">6.0M</text>
                             </g>
-                            <g class="tick" opacity="1" transform="translate(0,85.04218021990184)">
+                            <g class="tick" opacity="1" transform="translate(0,85.06938368382154)">
                                 <line stroke="currentColor" x2="-6"/>
                                 <text fill="currentColor" x="-9" dy="0.32em">4.0M</text>
                             </g>
-                            <g class="tick" opacity="1" transform="translate(0,113.02109010995093)">
+                            <g class="tick" opacity="1" transform="translate(0,113.03469184191077)">
                                 <line stroke="currentColor" x2="-6"/>
                                 <text fill="currentColor" x="-9" dy="0.32em">2.0M</text>
                             </g>
@@ -81,25 +81,25 @@
                                 <line stroke="currentColor" x2="-6"/>
                                 <text fill="currentColor" x="-9" dy="0.32em">0.0</text>
                             </g>
-                            <g class="tick" opacity="1" transform="translate(0,168.97890989004907)">
+                            <g class="tick" opacity="1" transform="translate(0,168.96530815808924)">
                                 <line stroke="currentColor" x2="-6"/>
                                 <text fill="currentColor" x="-9" dy="0.32em">−2.0M</text>
                             </g>
-                            <g class="tick" opacity="1" transform="translate(0,196.95781978009813)">
+                            <g class="tick" opacity="1" transform="translate(0,196.93061631617846)">
                                 <line stroke="currentColor" x2="-6"/>
                                 <text fill="currentColor" x="-9" dy="0.32em">−4.0M</text>
                             </g>
-                            <g class="tick" opacity="1" transform="translate(0,224.93672967014726)">
+                            <g class="tick" opacity="1" transform="translate(0,224.89592447426767)">
                                 <line stroke="currentColor" x2="-6"/>
                                 <text fill="currentColor" x="-9" dy="0.32em">−6.0M</text>
                             </g>
-                            <g class="tick" opacity="1" transform="translate(0,252.91563956019633)">
+                            <g class="tick" opacity="1" transform="translate(0,252.8612326323569)">
                                 <line stroke="currentColor" x2="-6"/>
                                 <text fill="currentColor" x="-9" dy="0.32em">−8.0M</text>
                             </g>
                         </g>
                         <path d="M240,140.5L240,5Z" fill="rgb(63, 185, 80)"/>
-                        <path d="M240,140.5L240,140.5001818629143Z" fill="rgb(218, 54, 51)"/>
+                        <path d="M240,140.5L240,140.50015380919487Z" fill="rgb(218, 54, 51)"/>
                     </svg>
                 </div>
             </section>
