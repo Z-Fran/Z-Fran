@@ -53,17 +53,17 @@ jobs:
           plugin_achievements_threshold: X
 
       # name: Compact display
-      - uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.achievements.compact.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          plugin_achievements: yes
-          plugin_achievements_only: >-
-            polyglot, stargazer, sponsor, deployer, member, maintainer, developer,
-            scripter, packager, explorer, infographile, manager
-          plugin_achievements_display: compact
-          plugin_achievements_threshold: X
+      # - uses: lowlighter/metrics@latest
+      #   with:
+      #     filename: metrics.plugin.achievements.compact.svg
+      #     token: ${{ secrets.METRICS_TOKEN }}
+      #     base: ""
+      #     plugin_achievements: yes
+      #     plugin_achievements_only: >-
+      #       polyglot, stargazer, sponsor, deployer, member, maintainer, developer,
+      #       scripter, packager, explorer, infographile, manager
+      #     plugin_achievements_display: compact
+      #     plugin_achievements_threshold: X
           
       # name: Most used (with details)
       - uses: lowlighter/metrics@latest
@@ -78,3 +78,28 @@ jobs:
           plugin_languages_indepth: yes
           plugin_languages_limit: 0
   
+      # name: Repositories and diff history
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.lines.history.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_lines: yes
+          plugin_lines_delay: 30
+          plugin_lines_sections: base, repositories, history
+          plugin_lines_repositories_limit: 10
+          plugin_lines_history_limit: 0
+
+      # name: python snippet of the day
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.code.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_code: yes
+          plugin_code_languages: python
+          plugin_code_load: 1000
+          plugin_code_lines: 12
+          plugin_code_days: 0
+        
+        
