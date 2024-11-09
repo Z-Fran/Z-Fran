@@ -77,10 +77,14 @@ jobs:
           base: ""
           plugin_languages: yes
           plugin_languages_ignored: >-
-            VHDL
-          plugin_languages_details: bytes-size, percentage, lines
+            VHDL, Verilog
+          plugin_languages_details: percentage, lines
           plugin_languages_indepth: yes
-          plugin_languages_limit: 0
+          plugin_languages_limit: 8
+          plugin_languages_other: yes
+          plugin_languages_recent_days: 0
+          plugin_languages_analysis_timeout: 60
+          plugin_languages_recent_load: 1000
   
       # # name: Repositories and diff history
       # - uses: lowlighter/metrics@latest
