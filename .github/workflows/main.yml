@@ -54,7 +54,7 @@ jobs:
           plugin_achievements: yes
           plugin_achievements_only: >-
             polyglot, deployer, maintainer, developer, contributor, helper, chatter,
-            deployer, influencer, inspire, reviewer, automator
+            deployer, influencer, inspirer, reviewer, automator
           plugin_achievements_threshold: C
 
       # name: Compact display
