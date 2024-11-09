@@ -21,8 +21,7 @@ jobs:
           base_indepth: yes
           base_hireable: yes
           repositories: 200
-          repositories_forks: yes
-          repositories_affiliations: owner, collaborator, organization_member
+          repositories_affiliations: owner, collaborator
           
 
       - uses: lowlighter/metrics@latest
@@ -46,7 +45,7 @@ jobs:
           plugin_reactions_limit_discussions_comments: 1000
           plugin_reactions_details: percentage
 
-      # name: Detailed display
+      # name: achievements
       - uses: lowlighter/metrics@latest
         with:
           filename: metrics.plugin.achievements.svg
@@ -118,25 +117,25 @@ jobs:
           plugin_discussions_categories_limit: 0
 
       # name: Notable contributions Indepth analysis
-      - uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.notable.indepth.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          plugin_notable: yes
-          plugin_notable_indepth: no
-          plugin_notable_repositories: yes
-          plugin_notable_types: pull_request, issue
-          plugin_notable_from: organization
+      # - uses: lowlighter/metrics@latest
+      #   with:
+      #     filename: metrics.plugin.notable.indepth.svg
+      #     token: ${{ secrets.METRICS_TOKEN }}
+      #     base: ""
+      #     plugin_notable: yes
+      #     plugin_notable_indepth: no
+      #     plugin_notable_repositories: yes
+      #     plugin_notable_types: pull_request, issue
+      #     plugin_notable_from: organization
 
       # name: Recent activity
-      - uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.activity.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          plugin_activity: yes
-          plugin_activity_limit: 5
-          plugin_activity_days: 0
-          plugin_activity_visibility: public 
-          plugin_activity_filter: pr, release, review
+      # - uses: lowlighter/metrics@latest
+      #   with:
+      #     filename: metrics.plugin.activity.svg
+      #     token: ${{ secrets.METRICS_TOKEN }}
+      #     base: ""
+      #     plugin_activity: yes
+      #     plugin_activity_limit: 5
+      #     plugin_activity_days: 0
+      #     plugin_activity_visibility: public 
+      #     plugin_activity_filter: pr, release, review
