@@ -109,5 +109,16 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_discussions: yes
+          plugin_discussions_categories: no
           plugin_discussions_categories_limit: 0
 
+      # name: Notable contributions Indepth analysis
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.notable.indepth.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_notable: yes
+          plugin_notable_indepth: yes
+          plugin_notable_repositories: yes
+          plugin_notable_from: all
