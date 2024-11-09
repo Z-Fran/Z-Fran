@@ -119,11 +119,10 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_notable: yes
-          plugin_notable_indepth: yes
+          plugin_notable_indepth: no
           plugin_notable_repositories: yes
-          plugin_notable_types: commit, pull_request, issue
-          plugin_notable_from: all
-          plugin_notable_self: yes
+          plugin_notable_types: pull_request, issue
+          plugin_notable_from: organization
 
       # name: Recent activity
       - uses: lowlighter/metrics@latest
@@ -135,4 +134,4 @@ jobs:
           plugin_activity_limit: 5
           plugin_activity_days: 0
           plugin_activity_visibility: public 
-          plugin_activity_filter: issue, pr, release, review, comment, 
+          plugin_activity_filter: pr, release, review
