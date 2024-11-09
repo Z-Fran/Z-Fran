@@ -52,6 +52,9 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_achievements: yes
+          plugin_achievements_only: >-
+            polyglot, deployer, maintainer, developer, contributor, helper, chatter,
+            deployer, influencer, inspire, reviewer, automator
           plugin_achievements_threshold: C
 
       # name: Compact display
