@@ -78,17 +78,17 @@ jobs:
           plugin_languages_indepth: yes
           plugin_languages_limit: 0
   
-      # name: Repositories and diff history
-      - uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.lines.history.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          plugin_lines: yes
-          plugin_lines_delay: 30
-          plugin_lines_sections: base
-          plugin_lines_repositories_limit: 10
-          plugin_lines_history_limit: 0
+      # # name: Repositories and diff history
+      # - uses: lowlighter/metrics@latest
+      #   with:
+      #     filename: metrics.plugin.lines.history.svg
+      #     token: ${{ secrets.METRICS_TOKEN }}
+      #     base: ""
+      #     plugin_lines: yes
+      #     plugin_lines_delay: 30
+      #     plugin_lines_sections: base
+      #     plugin_lines_repositories_limit: 10
+      #     plugin_lines_history_limit: 0
 
       # name: python snippet of the day
       - uses: lowlighter/metrics@latest
@@ -109,7 +109,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_discussions: yes
-          plugin_discussions_categories: no
+          plugin_discussions_categories: yes
           plugin_discussions_categories_limit: 0
 
       # name: Notable contributions Indepth analysis
@@ -121,4 +121,6 @@ jobs:
           plugin_notable: yes
           plugin_notable_indepth: yes
           plugin_notable_repositories: yes
+          plugin_notable_types: commit, pull_request, issue
           plugin_notable_from: all
+          plugin_notable_self: yes
