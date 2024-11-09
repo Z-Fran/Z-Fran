@@ -18,6 +18,7 @@ jobs:
           filename: metrics.base.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: header, activity, community, repositories, metadata
+          base_indepth: yes
 
       - uses: lowlighter/metrics@latest
         with:
