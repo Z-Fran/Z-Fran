@@ -40,3 +40,29 @@ jobs:
           plugin_reactions_limit_discussions: 1000
           plugin_reactions_limit_discussions_comments: 1000
           plugin_reactions_details: percentage
+
+      # name: Detailed display
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.achievements.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_achievements: yes
+          plugin_achievements_only: >-
+            polyglot, stargazer, sponsor, deployer, member, maintainer, developer,
+            scripter, packager, explorer, infographile, manager
+          plugin_achievements_threshold: X
+
+    # name: Compact display
+    - uses: lowlighter/metrics@latest
+      with:
+        filename: metrics.plugin.achievements.compact.svg
+        token: ${{ secrets.METRICS_TOKEN }}
+        base: ""
+        plugin_achievements: yes
+        plugin_achievements_only: >-
+          polyglot, stargazer, sponsor, deployer, member, maintainer, developer,
+          scripter, packager, explorer, infographile, manager
+        plugin_achievements_display: compact
+        plugin_achievements_threshold: X
+          
