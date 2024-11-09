@@ -86,7 +86,7 @@ jobs:
           base: ""
           plugin_lines: yes
           plugin_lines_delay: 30
-          plugin_lines_sections: base, repositories, history
+          plugin_lines_sections: base
           plugin_lines_repositories_limit: 10
           plugin_lines_history_limit: 0
 
@@ -102,4 +102,12 @@ jobs:
           plugin_code_lines: 12
           plugin_code_days: 0
         
-        
+      # name: GitHub Discussions
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.discussions.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_discussions: yes
+          plugin_discussions_categories_limit: 0
+
