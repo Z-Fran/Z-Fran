@@ -49,8 +49,7 @@ jobs:
           base: ""
           plugin_achievements: yes
           plugin_achievements_only: >-
-            polyglot, stargazer, sponsor, deployer, member, maintainer, developer,
-            scripter, packager, explorer, infographile, manager
+            polyglot, deployer, maintainer, developer
           plugin_achievements_threshold: X
 
       # name: Compact display
@@ -66,3 +65,16 @@ jobs:
           plugin_achievements_display: compact
           plugin_achievements_threshold: X
           
+      # name: Most used (with details)
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.languages.details.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_languages: yes
+          plugin_languages_ignored: >-
+            VHDL
+          plugin_languages_details: bytes-size, percentage, lines
+          plugin_languages_indepth: yes
+          plugin_languages_limit: 0
+  
