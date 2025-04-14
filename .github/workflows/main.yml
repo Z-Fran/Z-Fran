@@ -46,7 +46,7 @@ jobs:
           plugin_reactions_details: percentage
 
       # name: achievements
-      - uses: lowlighter/metrics@latest
+      - uses: stalomeow/metrics@projects-v2
         with:
           filename: metrics.plugin.achievements.svg
           token: ${{ secrets.METRICS_TOKEN }}
