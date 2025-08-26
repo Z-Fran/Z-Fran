@@ -20,7 +20,7 @@
 </details>
 
 <details>
-<summary>💻 Open Source Contributions</summary>
+### <summary> 💻 Open Source Contributions</summary>
 <br>
 
 |Title | Stars | Topics | Contribution | 
