@@ -1,8 +1,8 @@
 ### Hi there 👋
 
-[<img align="left" width="390" alt="🦑" src="/metrics.base.svg">](#)
+[<img width="390" alt="🦑" src="/metrics.base.svg">](#)
 
-[<img align="left" width="390" alt="🦑" src="/metrics.plugin.calendar.svg">](#)
+[<img width="390" alt="🦑" src="/metrics.plugin.calendar.svg">](#)
 
 
 <details>
