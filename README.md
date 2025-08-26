@@ -8,15 +8,15 @@
 <details>
 <summary>🏆 Achievements</summary>
 <br>
-[<img align="right" width="390" alt="🦑" src="/metrics.plugin.achievements.svg">](#)
+<img width="390" alt="🦑" src="/metrics.plugin.achievements.svg">
 </details>
 
 <details>
 <summary>💬 Comments</summary>
 <br>
-[<img align="right" width="390" alt="🦑" src="/metrics.plugin.discussions.svg">](#)
+<img width="390" alt="🦑" src="/metrics.plugin.discussions.svg">
 
-[<img align="right" width="390" alt="🦑" src="/metrics.plugin.reactions.svg">](#)
+<img width="390" alt="🦑" src="/metrics.plugin.reactions.svg">
 </details>
 
 <details>
