@@ -22,6 +22,8 @@
 <details>
 <summary><b>💻 Open Source Contributions</b></summary>
 <br>
+  
+<span id="open-source"></span>
 
 |Title | Stars | Topics | Contributions | 
 |--|--|--|--|
@@ -40,6 +42,9 @@
 <details>
 <summary><b>🛠 Personal Projects</b></summary>
 <br>
+
+<span id="personal-projects"></span>
+
 <table>
 <tr><th>Machine Learning | Data Science </th><th>AI | Deep Learning</th></tr>
 <tr><td>
